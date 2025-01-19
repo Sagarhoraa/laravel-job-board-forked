@@ -4,7 +4,7 @@ use App\Http\Controllers\ListingController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [ListingController::class, 'index']);
-
+//WHEN /dashboard URL IS HIT , IT RUN THIS FUNCTION , WHICH IS RETURNING TO VIEW , THAT IS DASHBOARD WHICH IS LOCATED IN RESOURCES->VIEWS->DASHBOARD.BLADE.PHP
 Route::get('/dashboard', function (\Illuminate\Http\Request $request) {
     return view('dashboard',
         [
