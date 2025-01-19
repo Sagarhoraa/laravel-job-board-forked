@@ -10,6 +10,9 @@ return new class extends Migration
      * Run the migrations.
      *
      * @return void
+     *//**
+     *this function creates a blueprint model schemt for database table that is users
+     
      */
     public function up()
     {
